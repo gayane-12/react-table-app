@@ -1,0 +1,123 @@
+export const headers = [
+  {
+    dataIndex: "name",
+    title: "Name",
+    sorter: false,
+    order: "desc",
+  },
+  {
+    dataIndex: "rate",
+    title: "Rating",
+    sorter: false,
+    order: "desc",
+  },
+];
+
+export const data = [
+  {
+    id: "1",
+    name: "React1",
+    rate: 120,
+    description: "desc React",
+    selected: false,
+  },
+  {
+    id: "2",
+    name: "Vue2",
+    rate: 130,
+    description: "desc Vue",
+    selected: false,
+  },
+  {
+    id: "3",
+    name: "aaaaaaaa3",
+    rate: 100,
+    description: "desc Angular",
+    selected: false,
+  },
+  {
+    id: "4",
+    name: "React4",
+    rate: 120,
+    description: "desc React",
+    selected: false,
+  },
+  {
+    id: "5",
+    name: "Vue5",
+    rate: 130,
+    description: "desc Vue",
+    selected: false,
+  },
+  {
+    id: "6",
+    name: "aaaaaaaa6",
+    rate: 100,
+    description: "desc Angular",
+    selected: false,
+  },
+  {
+    id: "7",
+    name: "React7",
+    rate: 120,
+    description: "desc React",
+    selected: false,
+  },
+  {
+    id: "8",
+    name: "Vue8",
+    rate: 130,
+    description: "desc Vue",
+    selected: false,
+  },
+  {
+    id: "9",
+    name: "aaaaaaaa9",
+    rate: 100,
+    description: "desc Angular",
+    selected: false,
+  },
+
+  {
+    id: "10",
+    name: "React10",
+    rate: 120,
+    description: "desc React",
+    selected: false,
+  },
+  {
+    id: "11",
+    name: "Vue11",
+    rate: 130,
+    description: "desc Vue",
+    selected: false,
+  },
+  {
+    id: "12",
+    name: "aaaaaaaa12",
+    rate: 100,
+    description: "desc Angular",
+    selected: false,
+  },
+  {
+    id: "13",
+    name: "React13",
+    rate: 120,
+    description: "desc React",
+    selected: false,
+  },
+  {
+    id: "14",
+    name: "Vue14",
+    rate: 130,
+    description: "desc Vue",
+    selected: false,
+  },
+  {
+    id: "15",
+    name: "aaaaaaaa15",
+    rate: 100,
+    description: "desc Angular",
+    selected: false,
+  },
+];

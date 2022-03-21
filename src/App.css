@@ -1,0 +1,77 @@
+* {
+  overflow-y: auto;
+}
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.tableFixHead {
+  height: 200px;
+  width: 418px;
+  border: 2px solid;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid;
+  border-top: none;
+  width: 400px;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+  position: sticky;
+  top: 0;
+  box-shadow: inset 1px 1px #000, 0 1px #000;
+  background-color: #c290d5;
+  color: #ffffff;
+  text-align: left;
+  z-index: 1;
+}
+
+td {
+  box-shadow: inset 1px -1px #000;
+}
+
+tbody {
+  position: relative;
+  top: 2px;
+  border: 1px solid;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #a86ebf;
+}
+
+tr:hover {
+  background-color: #e9e2ec;
+}
+
+button:hover {
+  background-color: #312338;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+button {
+  background-color: #4a3254;
+  cursor: pointer;
+  height: 35px;
+  margin: 25px;
+  color: #ffffff;
+  border-radius: 5px;
+}
